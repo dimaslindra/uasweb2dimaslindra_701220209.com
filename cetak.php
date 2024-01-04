@@ -1,4 +1,4 @@
-<?php include("inc_footer.php");
+<?php include("footer.php");
 require 'functions.php';
 $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
 ?>
@@ -80,10 +80,6 @@ $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
 
 <body>
     <h2>Data Buku Perpustakaan Online</h2>
-
-    <?php
-    include 'inc_footer.php';
-    ?>
     <table border="1" cellpadding="10" style="background: white; box-shadow: 0 0 10px rgba(1, 1, 1, 0.8); width: 80%;">
         <tr>
             <th>No</th>
